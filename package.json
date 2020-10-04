@@ -1,0 +1,28 @@
+{
+  "name": "big-spring",
+  "version": "0.0.1",
+  "description": "Scaling spring animations to the Next Level",
+  "main": "index.js",
+  "dependencies": {
+    "bs-platform": "^8.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IwanKaramazow/Big-Spring.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IwanKaramazow/Big-Spring/issues"
+  },
+  "homepage": "https://github.com/IwanKaramazow/Big-Spring#readme",
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "start": "bsb -make-world -w"
+  }
+}
